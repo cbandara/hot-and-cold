@@ -1,0 +1,23 @@
+h2 {
+  margin: 0 auto;
+  background: #ed213a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #93291e,
+    #ed213a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #93291e,
+    #ed213a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 1em 0.5em;
+  font-size: 1.5em;
+  font-weight: 400;
+  display: block;
+  line-height: 1em;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  color: #fff;
+}

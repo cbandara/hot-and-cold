@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  margin: 0.8em auto;
+  position: relative;
+  width: 96%;
+  height: 98%;
+  background-color: #1f253d;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .game {
+    width: 260px;
+  }
+
+  nav ul {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .user-guess {
+    font-size: 18px;
+    width: 160px;
+    height: 30px;
+  }
+
+  .guess-button {
+    width: 160px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .game {
+    width: 280px;
+  }
+
+  nav ul {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .user-guess {
+    font-size: 22px;
+    width: 180px;
+    height: 40px;
+  }
+
+  .guess-button {
+    width: 180px;
+  }
+}

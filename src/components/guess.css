@@ -1,0 +1,62 @@
+.user-guess {
+  text-align: center;
+  font-size: 28px;
+  width: 300px;
+  height: 40px;
+  display: block;
+  padding: 0.8em 0;
+  margin: 1em auto 0;
+  background: #50597b;
+  color: #fff;
+  border: solid 1px #1f253d;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b0b0b0;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #b0b0b0;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #b0b0b0;
+}
+
+.guess-button {
+  margin-top: 30px;
+  width: 300px;
+  background: #1f253d;
+  border-radius: 5px;
+  color: #95a5a6;
+  font-size: 2em;
+  padding: 0.2em;
+  -webkit-transition: background 1s ease-in-out;
+  -moz-transition: background 1s ease-in-out;
+  -ms-transition: background 1s ease-in-out;
+  -o-transition: background 1s ease-in-out;
+  transition: background 1s ease-in-out;
+  border-style: none;
+}
+
+.guess-button:hover {
+  background: #e64c65;
+  color: #fff;
+  -webkit-transition: background 1s ease-in-out;
+  -moz-transition: background 1s ease-in-out;
+  -ms-transition: background 1s ease-in-out;
+  -o-transition: background 1s ease-in-out;
+  transition: background 1s ease-in-out;
+  cursor: pointer;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

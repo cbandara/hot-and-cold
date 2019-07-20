@@ -1,0 +1,25 @@
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0;
+}
+
+.instructions {
+  float: left;
+  font-size: 20px;
+}
+
+.new {
+  float: right;
+
+  font-size: 20px;
+}
+
+.title {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-family: "Acme", sans-serif;
+}
